@@ -1,36 +1,44 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "itemName": "string",
-            "price": 2.50,
-            "description": "string",
-            "condition": "string",
-            "imageUrl": "string"
-        },
-        {
-            "id": 2,
-            "itemName": "string",
-            "price": 2.50,
-            "description": "string",
-            "condition": "string",
-            "imageUrl": "string"
-        },
-        {
-            "id": 3,
-            "itemName": "string",
-            "price": 2.50,
-            "description": "string",
-            "condition": "string",
-            "imageUrl": "string"
-        },
-        {
-            "id": 4,
-            "itemName": "string",
-            "price": 2.50,
-            "description": "string",
-            "condition": "string",
-            "imageUrl": "string"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "itemName": "Galactic Dream",
+      "price": 25,
+      "description": "Is it a dream or reality? This radiant moon highlights the landscape as the still water reflects the endless sky above.",
+      "medium": "Acrylic",
+      "imageUrl": "assets/galactic.jpg"
+    },
+    {
+      "id": 2,
+      "itemName": "Red Sun / Lakeside Coffee - Duo",
+      "price": 27.5,
+      "description": "Get these two paintings as a bundle pack. Red Sun depicts the blazing sun before it sets just above the treeline. Lakeside Coffee expresses the calmness of sipping warm coffee lakeside on a cloudy morning in the forested mountains.",
+      "medium": "Acrylic",
+      "imageUrl": "/assets/landscape-duo.jpg"
+    },
+    {
+      "id": 3,
+      "itemName": "Gnomes",
+      "price": 15,
+      "description": "These three gnomes are here to protect you from the darkness. They are guardians that keep the nightmares away.",
+      "medium": "Acrylic/Sharpie",
+      "imageUrl": "./assets/gnomes.jpg"
+    },
+    {
+      "id": 4,
+      "itemName": "Tea Nook - Lavender",
+      "price": 7.5,
+      "description": "What is better than some lavender with tea and candles?",
+      "medium": "Acrylic/Sharpie",
+      "imageUrl": "../assets/tea.jpg"
+    },
+    {
+      "itemName": "lkajfslz",
+      "price": "3450",
+      "description": "lskjdflskzm",
+      "medium": "aslfkm",
+      "imageUrl": "https://unsplash.com/photos/vLVZk-olYxk",
+      "id": 5
+    }
+  ]
 }

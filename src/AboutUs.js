@@ -1,4 +1,4 @@
-import { Image } from "react-bootstrap";
+
 
 
 function AboutUs() {
