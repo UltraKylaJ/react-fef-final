@@ -1,13 +1,10 @@
-
+import ProductList from "./ProductList";
 
 function Welcome(props) {
-    const { id } = props;
     return (
         <>
-            <h1>Welcome to Company!</h1>
-            <span>
-                {id} {id} {id}
-            </span>
+            <h1>Welcome to Swish!</h1>
+            {/* <ProductList /> */}
         </>
     )
 }

@@ -18,7 +18,7 @@ function App() {
               <Route index element={<p>Select a product for more details.</p>} />
               <Route path='new' element={<NewProduct />} />
               <Route path=':productId/edit' element={<NewProduct />} />
-              <Route path='productId' element={<Product />} />
+              <Route path=':productId' element={<Product />} />
               <Route path='*' element={<h1>Product Not Found</h1>} />
             </Route>
           </Route>

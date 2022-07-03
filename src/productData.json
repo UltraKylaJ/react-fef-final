@@ -6,7 +6,7 @@
       "price": 25,
       "description": "Is it a dream or reality? This radiant moon highlights the landscape as the still water reflects the endless sky above.",
       "medium": "Acrylic",
-      "imageUrl": "assets/galactic.jpg"
+      "imageUrl": "./assets/galactic.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "price": 27.5,
       "description": "Get these two paintings as a bundle pack. Red Sun depicts the blazing sun before it sets just above the treeline. Lakeside Coffee expresses the calmness of sipping warm coffee lakeside on a cloudy morning in the forested mountains.",
       "medium": "Acrylic",
-      "imageUrl": "/assets/landscape-duo.jpg"
+      "imageUrl": "./assets/landscape-duo.jpg"
     },
     {
       "id": 3,
@@ -30,15 +30,7 @@
       "price": 7.5,
       "description": "What is better than some lavender with tea and candles?",
       "medium": "Acrylic/Sharpie",
-      "imageUrl": "../assets/tea.jpg"
-    },
-    {
-      "itemName": "lkajfslz",
-      "price": "3450",
-      "description": "lskjdflskzm",
-      "medium": "aslfkm",
-      "imageUrl": "https://unsplash.com/photos/vLVZk-olYxk",
-      "id": 5
+      "imageUrl": "./assets/tea.jpg"
     }
   ]
 }

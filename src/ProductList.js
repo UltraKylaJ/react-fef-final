@@ -1,34 +1,35 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
 import Stack from "react-bootstrap/Stack";
 import { Link, Outlet } from "react-router-dom";
 import { ProductContext } from "./ProductContext";
+import { Card, ListGroup } from "react-bootstrap";
 
 function ProductList(props) {
   function productList(products) {
     if (products === null) return
     return products.map((product) =>
-      <ListGroup.Item key={product.id}>
+      <Card key={product.id} className="w-75" >
+        <Card.Img src={`${product.imageUrl}`}/>
+        <Card.Title>{product.itemName}</Card.Title>
+        <Card.Subtitle>${product.price}</Card.Subtitle>
         <Link to={`/products/${product.id}`} key={product.id} >
-          {product.itemName}
+          More Info!
         </Link>
-      </ListGroup.Item>
+    </Card>
     )
   }
 
   return (
     <>
-    <h1>Products</h1>
-    <Stack direction="horizontal" gap={3}>
-    <ListGroup className="align-self-start w-75">
-    <ProductContext.Consumer>
-      {({products}) => (
-        productList(products)
-      )}
-    </ProductContext.Consumer>
-    </ListGroup>
-    <Outlet />
-    </Stack>
+      <h1>Products</h1>
+      <Stack direction="horizontal" gap={3}>
+          <ProductContext.Consumer>
+            {({products}) => (
+              productList(products)
+            )}
+          </ProductContext.Consumer>
+        <Outlet />
+      </Stack>
     </>
   )
 }

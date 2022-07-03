@@ -5,7 +5,7 @@ import axios from 'axios';
 export const ProductContext = createContext();
 
 export const ProductProvider = (props) => {
-    const [ products, setProducts ] = useState([]);
+    const [products, setProducts] = useState([]);
     const baseUrl = "http://localhost:3001/products";
 
     useEffect(() => {

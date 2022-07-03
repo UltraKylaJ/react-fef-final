@@ -24,7 +24,7 @@ function NewProduct() {
             await getProduct(id).then((product) => setNewProduct(product))
         }
         fetch()
-    }, [id])
+    }, [id, getProduct])
 
     function handleChange(event) {
         setNewProduct((prevValue) => {
